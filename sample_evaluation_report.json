@@ -1,0 +1,155 @@
+{
+  "note": "This is a sample report generated in MOCK MODE for demonstration purposes.",
+  "evaluation_date": "2026-01-30T19:01:36.024059",
+  "use_case": {
+    "use_case": "Customer Support Automation",
+    "description": "Evaluating Claude's ability to handle customer support inquiries with appropriate tone, accuracy, and helpfulness.",
+    "model": "claude-sonnet-4-20250514",
+    "timestamp": "2026-01-30T19:01:36.024059",
+    "prompt_results": [
+      {
+        "scenario": "Product return request",
+        "prompt": "I bought a laptop from your store 3 weeks ago and it's not working properly. The screen flickers and sometimes goes black. I'd like to return it for a refund. Can you help me with this process?",
+        "response": "[Mock Response] This is a simulated response to demonstrate the evaluation framework. In production, this would be Claude's actual response to: 'I bought a laptop from your store 3 weeks ago and ...'",
+        "response_time": 0.0,
+        "scores": {
+          "completeness": 3.5,
+          "professional_tone": 4.0,
+          "safety": 5.0,
+          "helpfulness": 3.5,
+          "format": 4.0,
+          "characteristics_match": 0.0
+        },
+        "expected_characteristics": [
+          "empathy",
+          "clear steps",
+          "policy information",
+          "helpful"
+        ]
+      },
+      {
+        "scenario": "Billing inquiry",
+        "prompt": "I was charged twice for my subscription this month. My credit card shows two charges of $49.99 on the same day. This is my account ID: ACC-12345. Can you explain what happened?",
+        "response": "[Mock Response] This is a simulated response to demonstrate the evaluation framework. In production, this would be Claude's actual response to: 'I was charged twice for my subscription this month...'",
+        "response_time": 0.0,
+        "scores": {
+          "completeness": 3.5,
+          "professional_tone": 4.0,
+          "safety": 5.0,
+          "helpfulness": 3.5,
+          "format": 4.0,
+          "characteristics_match": 0.0
+        },
+        "expected_characteristics": [
+          "acknowledge issue",
+          "investigation",
+          "resolution steps",
+          "professional"
+        ]
+      },
+      {
+        "scenario": "Technical troubleshooting",
+        "prompt": "The mobile app keeps crashing whenever I try to upload a photo. I've tried restarting my phone but it still doesn't work. I'm using an iPhone 12 with iOS 16.",
+        "response": "[Mock Response] This is a simulated response to demonstrate the evaluation framework. In production, this would be Claude's actual response to: 'The mobile app keeps crashing whenever I try to up...'",
+        "response_time": 0.0,
+        "scores": {
+          "completeness": 3.5,
+          "professional_tone": 4.0,
+          "safety": 5.0,
+          "helpfulness": 3.5,
+          "format": 4.0,
+          "characteristics_match": 0.0
+        },
+        "expected_characteristics": [
+          "troubleshooting steps",
+          "specific",
+          "patient",
+          "technical"
+        ]
+      },
+      {
+        "scenario": "Angry customer escalation",
+        "prompt": "This is ridiculous! I've been on hold for 30 minutes and nobody can help me. Your service is terrible and I want to speak to a manager RIGHT NOW!",
+        "response": "[Mock Response] This is a simulated response to demonstrate the evaluation framework. In production, this would be Claude's actual response to: 'This is ridiculous! I've been on hold for 30 minut...'",
+        "response_time": 0.0,
+        "scores": {
+          "completeness": 3.5,
+          "professional_tone": 4.0,
+          "safety": 5.0,
+          "helpfulness": 3.5,
+          "format": 4.0,
+          "characteristics_match": 0.0
+        },
+        "expected_characteristics": [
+          "calm",
+          "empathy",
+          "de-escalation",
+          "solution-focused"
+        ]
+      },
+      {
+        "scenario": "Product information request",
+        "prompt": "I'm considering upgrading to your premium plan. Can you tell me what additional features I would get compared to the basic plan?",
+        "response": "[Mock Response] This is a simulated response to demonstrate the evaluation framework. In production, this would be Claude's actual response to: 'I'm considering upgrading to your premium plan. Ca...'",
+        "response_time": 0.0,
+        "scores": {
+          "completeness": 3.5,
+          "professional_tone": 4.0,
+          "safety": 5.0,
+          "helpfulness": 3.5,
+          "format": 4.0,
+          "characteristics_match": 0.0
+        },
+        "expected_characteristics": [
+          "clear comparison",
+          "value proposition",
+          "informative",
+          "encouraging"
+        ]
+      }
+    ],
+    "aggregate_scores": {
+      "completeness": {
+        "mean": 3.5,
+        "min": 3.5,
+        "max": 3.5
+      },
+      "professional_tone": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0
+      },
+      "safety": {
+        "mean": 5.0,
+        "min": 5.0,
+        "max": 5.0
+      },
+      "helpfulness": {
+        "mean": 3.5,
+        "min": 3.5,
+        "max": 3.5
+      },
+      "format": {
+        "mean": 4.0,
+        "min": 4.0,
+        "max": 4.0
+      },
+      "characteristics_match": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "overall": {
+        "mean": 3.33,
+        "assessment": "Acceptable"
+      }
+    },
+    "recommendation": "Claude can handle Customer Support Automation but may need significant prompt tuning and evaluation framework."
+  },
+  "how_to_interpret": {
+    "overall_score": "Average of all dimension scores, 1-5 scale",
+    "assessment": "Qualitative rating: Excellent (4.5+), Very Good (4.0-4.5), Good (3.5-4.0), Acceptable (3.0-3.5), Needs Improvement (<3.0)",
+    "dimension_scores": "Individual metrics showing different quality aspects",
+    "recommendation": "Suggested next steps based on performance"
+  }
+}
