@@ -249,7 +249,7 @@ This project is created for demonstration purposes as part of a Solutions Archit
 
 ## 👤 Author
 
-**[Your Name]**
+Sean Walker
 - Sales Engineer with 5 years experience at Alteryx
 - Passionate about helping enterprises adopt AI responsibly
 - Focus on customer success and technical excellence
